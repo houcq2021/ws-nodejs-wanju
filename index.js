@@ -6,7 +6,7 @@ const vmmport = process.env.VM_PORT || '8001';//vms 端口
 const vpath = process.env.VPATH || 'vls';//vls path
 const vport = process.env.VL_PORT || '8002'; //vls端口
 const tmpargo = process.env.TMP_ARGO || 'vms'; //协议类型可选vms,vls
-const subname = process.env.SUB_NAME || 'plutonodes.net'; //名称
+const subname = process.env.SUB_NAME || 'Argo'; //名称
 const suburl = process.env.SUB_URL || ''; //订阅服务器地址
 //====哪吒参数
 const nezhaser = process.env.NEZHA_SERVER || '';
