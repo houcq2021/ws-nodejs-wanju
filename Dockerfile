@@ -17,12 +17,11 @@ WORKDIR /app
 
 COPY index.js ./
 COPY package.json ./
-COPY start.sh ./
+
 # 安装应用程序依赖
     
 RUN apk update \
     && apk add --no-cache bash curl zsh \
-    && chmod 777 start.sh \
     && npm install \
     && rm -rf /var/lib/apt/lists/*
 
