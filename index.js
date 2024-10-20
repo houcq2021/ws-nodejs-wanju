@@ -1,6 +1,6 @@
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 //====节点参数
-const uuid = process.env.UUID || 'fd80f56e-93f3-4c85-b2a8-c77216c509a7';
+const uuid = process.env.UUID || 'fd80f56e-93f3-4c85-b2a8-c77216c509a7'; //不填，则使用随机
 const vmms = process.env.MPATH || 'vms'; //vms path
 const vmmport = process.env.VM_PORT || '8001';//vms 端口
 const vpath = process.env.VPATH || 'vls';//vls path
