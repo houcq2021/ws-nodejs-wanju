@@ -1,18 +1,18 @@
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 //====节点参数
-const uuid = process.env.UUID || '31f08bb9-99fa-4948-8268-1b2ab12033a7';
+const uuid = process.env.UUID || '65429d87-3027-4f2c-a3cf-b4a0e002ba0e';
 const vmms = process.env.MPATH || 'vms'; //vms path
 const vmmport = process.env.VM_PORT || '8001'; //vms 端口
 const vpath = process.env.VPATH || 'vls'; //vls path
 const vport = process.env.VL_PORT || '8002'; //vls端口
-const tmpargo = process.env.TMP_ARGO || 'vms'; //协议类型可选vms,vls
-const subname = process.env.SUB_NAME || 'Argo'; //名称
+const tmpargo = process.env.TMP_ARGO || 'vls'; //协议类型可选vms,vls
+const subname = process.env.SUB_NAME || 'Webapp'; //名称
 const suburl = process.env.SUB_URL || ''; //订阅服务器地址
 //====哪吒参数
 const nezhaser = process.env.NEZHA_SERVER || '';
 const nezhaKey = process.env.NEZHA_KEY || '';
-const nezport = process.env.NEZHA_PORT || '443';
-const neztls = process.env.NEZHA_TLS || '1';
+const nezport = process.env.NEZHA_PORT || '';
+const neztls = process.env.NEZHA_TLS || '';
 //====隧道参数
 const argoKey = process.env.TOK || ''; //隧道token,不填则使用临时隧道
 const argodomain = process.env.ARGO_DOMAIN || ''; //固定隧道域名，使用token时必填
